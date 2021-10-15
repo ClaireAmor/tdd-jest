@@ -3,7 +3,7 @@ function sum(firstNumber, secondNumber) {
     if (Number.isInteger(firstNumber) && Number.isInteger(secondNumber)) {
         return firstNumber + secondNumber;
     }
-    return false;
+    throw new Error("Parameter(s) is not a number!");
 }
 
 module.exports = sum;

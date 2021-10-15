@@ -1,5 +1,5 @@
 // Add the unit tests of the sum function here
-const {fizzBuzzGame, callFizzBuzzGame, multiplication} = require('../src/multiplication');
+const {fizzBuzzGame, multiplication} = require('../src/multiplication');
 
 //Multiplication
 test('multiplication 1 * 2 to equal 2', () => {

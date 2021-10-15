@@ -30,7 +30,7 @@ function callFizzBuzzGame() {
 let allfunctions = {
     fizzBuzzGame,
     multiplication,
-    callFizzBuzzGame
+    callFizzBuzzGame,
 }
 
 module.exports = allfunctions;
