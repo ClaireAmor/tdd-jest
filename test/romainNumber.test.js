@@ -3,11 +3,11 @@ const romainNumber = require('../src/romainNumber');
 
 
 test('romainNumber 1 to equal I', () => {
-    expect(romainNumber(1)).toBe("I");
+    expect(romainNumber(4)).toBe("IV");
 });
 
 test('romainNumber 2 to equal II', () => {
-    expect(romainNumber(2)).toBe("II");
+    expect(romainNumber(949)).toBe("CMXLIX");
 });
 
 
